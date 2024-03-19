@@ -1,4 +1,4 @@
-#### _YouCal is a part of FoodStats!_
+#### _YouCal is a part of [FoodStats](https://github.com/FoodStats)!_
 
 # YouCal: an easy calorie calculator!
 
