@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-activity={"Sedentary (little or no exercise)":1.2, "Lightly active (exercise 1–3 days/week)":1.375, "Active (exercise 6–7 days/week)":1.55, "Very active (hard exercise 6–7 days/week)":1.725}
+activity={"Sedentary (little or no exercise)":1.2, "Lightly active (exercise 1–3 days/week)":1.375, "Moderately active (exercise 3-5 days/week)":1.55, "Active (hard exercise 6–7 days/week)":1.725,"Very active (hard exercise 6–7 days/week)":1.9}
 st.title('Calorie Calculator')
 def validate_input(weight,height,age,sex,activity):
     if not height:
