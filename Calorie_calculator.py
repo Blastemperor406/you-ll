@@ -39,13 +39,13 @@ if calculate:
         if Sex=="Female":
                 BMR = 668.19296854+ (9.93930012*int(weight)) + (1.86102009*int(height)) - (4.78038547*int(age)) 
                 AMR = BMR*activity[option]
-                st.success("On a 3 meal scale, you should take "+str(round((BMR-200)/3))+"per meal")
+                st.success("On a 3 meal scale, you should take "+str(round((AMR-200)/3))+"cal per meal with 200 calories for throughout the day snacking")
                 st.write("Your Basal Metabolic Rate is",round(BMR))
                 st.write("Your Active Metabolic Rate is",round(AMR))
         else:
                 BMR = 21.77589707 + (13.85398532*int(weight)) + (5.49432274*int(height)) - (6.875253*int(age))
                 AMR = BMR*activity[option]
-                st.success("On a 3 meal scale, you should take "+str(round((BMR-200)/3))+" cal per meal with 200 calories for throughout the day snacking")
+                st.success("On a 3 meal scale, you should take "+str(round((AMR-200)/3))+" cal per meal with 200 calories for throughout the day snacking")
                 st.write("Your Basal Metabolic Rate is",round(BMR))
                 st.write("Your Active Metabolic Rate is",round(AMR))
 
