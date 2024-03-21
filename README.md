@@ -12,6 +12,6 @@ BMR refers to the minimum basal metabolic rate.
 on top of this we add a certain activity criterion to achieve activity metobolic rate AMR.
 
 ## Try it out at:
-YouCal.streamlit.app
+[YouCal.streamlit.app](YouCal.streamlit.app)
 
 
