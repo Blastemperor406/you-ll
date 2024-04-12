@@ -48,12 +48,6 @@ if calculate:
                 st.success("On a 3 meal scale, you should take "+str(round((AMR-200)/3))+" cal per meal with 200 calories for throughout the day snacking")
                 st.write("Your Basal Metabolic Rate is",round(BMR))
                 st.write("Your Active Metabolic Rate is",round(AMR))
-    coeff=[  7.40300629,   5.91606591,  14.91743453,  23.44801225,
-         5.1473278 ,   2.00398124,  10.70217296, 719.47050621,
-         1.08497681,   1.19603515,   1.30695392,   1.51996267]
-    coeff2=[  6.875253  ,   5.49432274,  13.85398532,  21.77589707,
-          4.78038547,   1.86102009,   9.93930012, 668.19296854,
-          1.16826132,   1.28784451,   1.40727724,   1.63663733]
 
 
 
